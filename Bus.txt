@@ -9,7 +9,7 @@ int main()
 	initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 	for(i=0;i<getmaxx();i=i+5)
 	{
-	       //	outtexty()
+	outtextxy(65+i,230,"KIST");
 
 	rectangle(10+i,200,300+i,300);
 	rectangle(50+i,150,250+i,200);
